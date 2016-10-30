@@ -1,0 +1,61 @@
+@import 'https://fonts.googleapis.com/css?family=Poiret+One|Yatra+One';
+
+
+h1 {
+	font-size: 2em;
+	font-family: 'Yatra One', cursive;
+	text-align: center;
+}
+.movieTheater{
+	background: url("http://worldartsme.com/images/movie-theater-screen-clipart-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 50em;
+	margin-top: -15px;
+	position: absolute;
+}
+.quoteFont{
+	font-family: 'Poiret One', cursive;
+	font-size: 2.5em;
+	line-height: 1em;
+}
+.movieFont {
+	font-style: italic; 
+	float: right;
+	font-size: 1.5em;
+	margin-top: 1em;
+}
+#movieScreen{
+    width: 40em;
+    padding: 2em 0.75em;
+    background: #FEFEFE;
+    display: inline-block;
+    position:relative;
+    left: 280px;
+    top: 100px;
+}
+.buttonsHolder{
+	margin: 0em auto;
+	padding: 0.5em;
+}
+#twitterBtn{
+	font-family: 'Yatra one', cursive;
+	background-color: #1da1f2;
+    height: 3.5em;
+    width: 10em;
+    padding-bottom: 3.2em;
+    border-radius: 0.5em;
+}
+#newQteBtn {
+	font-family: 'Yatra one', cursive;
+	background-color: #E6E6E6;
+	border-radius: 5px;
+}
+#newQteBtn:hover{
+	background-color: #cccccc;
+	border-radius: 5px;
+}
+
+/* font-family: 'Poiret One', cursive;
+font-family: 'Yatra One', cursive; */
